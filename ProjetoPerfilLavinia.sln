@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{7EDAD7FC-24CC-41D1-872D-BE6292CD5134}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{44EE5EB8-8CE0-4129-90A8-B679AD5B99DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{D5F38BC2-7FB0-4FBB-9900-1248279EBF0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{89AD5C2C-05ED-4B90-88E8-EA151128B301}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoPerfilLavinia.Domain", "ProjetoPerfilLavinia.Domain\ProjetoPerfilLavinia.Domain.csproj", "{71F8CDE4-8D67-4F5D-9DC2-3FA693752F20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71F8CDE4-8D67-4F5D-9DC2-3FA693752F20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F8CDE4-8D67-4F5D-9DC2-3FA693752F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F8CDE4-8D67-4F5D-9DC2-3FA693752F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F8CDE4-8D67-4F5D-9DC2-3FA693752F20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{71F8CDE4-8D67-4F5D-9DC2-3FA693752F20} = {44EE5EB8-8CE0-4129-90A8-B679AD5B99DD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F983797A-29C8-4E0B-A276-11A6AF9186CE}
+	EndGlobalSection
+EndGlobal
