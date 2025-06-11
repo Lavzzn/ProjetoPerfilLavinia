@@ -10,4 +10,11 @@
         public string Nome { get; set; }
         public string Especie { get; set; }
     }
+    public class Cachorro
+    {
+        public int Id { get; set; }
+        public string Nome { get; set;}
+        public string Especie { get; set; }
+
+    }
 }
